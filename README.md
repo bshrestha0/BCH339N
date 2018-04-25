@@ -66,7 +66,7 @@ unmerge-paired-reads.sh PBA_sortmerna.fq PBA_sortmerna_1.fq PBA_sortmerna_2.fq
 
 #Trinity can be run directly following the usages described in the Trinitywiki above.
 
-#However if you want to run using TACC, I have wrote a bash script that loads all the modules needed to run Trinity. For this, download tryTrinity.sh and export in your path variable
+#However if you want to run using TACC, I have wrote a bash script that runs Trinity by loading all the modules required. For this, download tryTrinity.sh and export it in your path variable.
 
 tryTrinity.sh PBA_S37_L007_R1_001.fastq PBA_S37_L007_R2_001.fastq biflora.trinity.fasta 200
 
